@@ -1,3 +1,4 @@
-text = "python is simple"
-strippedtext text.strip()
-print("my stripped texte is:"strippedtext)
+text = "   python is simple"
+print("my original text is:", text)
+strippedtext = text.strip()
+print("my stripped texte is:", strippedtext)
